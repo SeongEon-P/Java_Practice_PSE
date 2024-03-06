@@ -1,0 +1,9 @@
+package ex_240306;
+
+public interface test3 {
+
+	public static void main(String[] args) {
+		test1
+	}
+
+}

@@ -1,0 +1,6 @@
+package ex_240306;
+
+public interface test1 extends test2, test3 {
+
+
+}

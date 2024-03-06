@@ -1,0 +1,17 @@
+package ex_240304;
+
+public class Ex_03_class_2_Idol {
+
+	public static void main(String[] args) {
+		// Idol 클래스 사용
+		Scanner sacnner = new Scanner(System.in);
+		System.out.println("아이돌 그룹명을 입력해주세요>>");
+		String groupNameString = scanner.next();
+		System.out.println("아이돌 그룹멤버를 입력해주세(예, 공백으로 구분해서 넣기)>>");
+		
+		
+		Idol btsIdol = new Idol("BTS", args, args)
+
+	}
+
+}

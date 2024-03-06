@@ -1,0 +1,37 @@
+package ex_240306;
+
+public class Ex_03_inheritance_1 {
+	// 부모 클래스
+	// 생성자 명은 클래스 명과 동일하다
+	// 클래스 1)정의
+	class A2 {
+		public A2(){
+			System.out.println("생성자 A2 입니다.");
+		}
+		
+	}
+	class B extends A2 {
+		public B(){
+			System.out.println("생성자 B 입니다.");
+		}
+		
+	}
+	class C extends B {
+		public C(){
+			System.out.println("생성자 C 입니다.");
+		}
+		
+	}
+	
+	
+	public static void main(String[] args) {
+	// 클래스 2)사용
+		C c = newC();
+		System.out.println("부모 클래스 먼저 생성자 호출 확인.");
+		
+		
+		
+		
+	}
+
+}
