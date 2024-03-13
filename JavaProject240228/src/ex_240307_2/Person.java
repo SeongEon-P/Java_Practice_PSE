@@ -27,6 +27,7 @@ public class Person {
 	// 그래서, 재정의를 하고, 우리는 이름이 같으면 같다고 가정하고 재정의한다. 
 	
 	public boolean equals(Object obj) {
+//		Person person = new Person();
 		// 담을 때, 모델 타입을 정해서 담아 놓으면, 
 		// 여러모로 작업 할 때 편하다. 지금처럼, 해당 형을 확인하고 
 		// 하는 작업 할 필요가 없다. 
