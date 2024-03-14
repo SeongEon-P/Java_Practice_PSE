@@ -18,15 +18,15 @@ public class Ex_01_FileIO_String_1 {
 			in = new FileReader("c:\\windows\\system.ini");
 			int c; 
 			try {
-				// in.read() 읽으면, 문자를 유니코드 정수로 반환을 함.
-				// 내용이 있다면, 반환되는 정수값이 음이 아니예ㅛㅇ. 참, 그래서 계속 읽고 출력
-				// 만약, 읽을 내용이 없다면, -1을 반환함. 반복은 종료됨
-				while((c = in.read()) != -1) { 
+				// in.read() 읽으면, 문자를 유니코드 정수로 반환을 함. 
+				// 내용이 있다면, 반환되는 정수값이 음이 아니예요. 참, 그래서 계속 읽고, 출력. 
+				// 만약, 읽을 내용이 없다면, 반환을 -1 하고, 반복 종료.
+				while((c = in.read()) != -1) {
 					System.out.print((char)c);
 				}
-				// 반드시 사용후 메모리 반납(해당 인스턴스라는게, 힙의 메모리 위치 어딘가에 저장).
+				// 사용후 메모리 반납(해당 인스턴스라는게, 힙의 메모리 위치 어딘가에 저장). 
 				in.close();
-				// 누가 알아서 수거해가죠? 가비지 컬렉터
+				// 누가 알아서 수거해가죠? 가비지 컬렉터 
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
